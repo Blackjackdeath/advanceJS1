@@ -1,0 +1,69 @@
+.wrapper{
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.boxlist{
+    width: 50%;
+    height: 50%;
+}
+.panel{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-bottom: 20px
+}
+#text{
+    width: 100px;
+    border: none;
+    border-bottom: 2px solid steelblue;
+}
+#text:focus{
+    outline: none;
+}
+.label{
+    color: steelblue;
+}
+.button{
+    width: 80px;
+    height: 30px;
+    border: none;
+    background-color: green;
+    border-radius: 3px;
+    color: white;
+    font-size: large;
+}
+.button:hover{
+    box-shadow: 0 0 0 4px greenyellow;
+}
+.table{
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 24px;
+    font-weight: bold;
+    color: steelblue;
+}
+.row{
+    height: 50px;
+    border: none;
+    border-bottom: 3px solid steelblue;
+}
+.nameCell{
+    width: 70%;
+   
+}
+.numCell{
+width: 10%;
+}
+.deleteCell{
+    width: 20%;
+    
+    text-align: center;
+}
+.close{
+    width: 40px;
+    height: 40px;
+}
